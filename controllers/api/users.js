@@ -1,6 +1,10 @@
+
 const User = require("../../models/user");
 const jwt = require("jsonwebtoken");
 const bcrypt = require('bcrypt')
+
+require('dotenv').config();
+
 module.exports = {
   create,
   login,
@@ -14,7 +18,7 @@ function checkToken(req, res) {
 }
 
 function createJWT(user) {
-  console.log("Creating JWT")
+  console.log("Creating JWT", process.env.SECRET);
   return jwt.sign(
     // data payload
     { user },
