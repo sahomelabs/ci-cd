@@ -1,5 +1,5 @@
-
 import { getToken } from './users-service';
+
 export async function sendRequest(url, method = 'GET', payload = null) {
     // Fetch accepts an options object as the 2nd argument
     // used to include a data payload, set headers, etc.
@@ -24,3 +24,5 @@ export async function sendRequest(url, method = 'GET', payload = null) {
     throw new Error('Bad Request');
   }
   
+
+  export default sendRequest;
