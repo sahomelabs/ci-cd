@@ -32,7 +32,7 @@ async function handleSubmit(evt) {
 
 return (
   <div>
-    <h1>Log In Form</h1>
+    <h1>Log In</h1>
     <div className="form-container" onSubmit={handleSubmit}>
       <form autoComplete="off" >
         <label>Email</label>

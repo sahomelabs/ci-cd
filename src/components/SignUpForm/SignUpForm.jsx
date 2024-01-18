@@ -38,7 +38,7 @@ export default class SignUpForm extends Component {
 
     return (
       <>
-        <div>SignUpForm</div>
+        <div>SignUp</div>
         <div className="form-container">
           <form autoComplete="off" onSubmit={this.handleSubmit} style={{margin:"1em"}}>
             <label>Name</label>
