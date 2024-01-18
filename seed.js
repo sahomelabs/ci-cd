@@ -26,6 +26,7 @@ const Item = require('./models/item');
     {name: 'Noodles', emoji: '🍜',  category: categories[2], price: 11.95},
     {name: 'Fried Rice', emoji: '🍘', category: categories[2], price: 9.95},
     {name: 'Jollof Rice', emoji: '🍛', category: categories[2], price: 9.95},
+    {name: 'Suya', emoji: '🍛', category: categories[2], price: 9.95},
     {name: 'Veggy Brochette', emoji: '🍢', category: categories[8], price: 3.95},
     {name: 'Sushi', emoji: '🍣', category: categories[2], price: 5.95},
     {name: 'Beef', emoji: '🍖', category: categories[2], price: 9.95},
