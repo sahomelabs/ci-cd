@@ -1,4 +1,4 @@
-.MenuListItem {
+.MenuListItem {  
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -37,3 +37,10 @@
     text-align: center;
     color: var(--text-light);
   }
+
+
+
+
+
+  
+  

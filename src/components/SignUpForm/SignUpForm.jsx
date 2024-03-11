@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { signUp } from '../../utilities/users-service';
+import "./SignUpForm.module.css";
 
 
 export default class SignUpForm extends Component {
@@ -38,7 +39,7 @@ export default class SignUpForm extends Component {
 
     return (
       <>
-        <div>SignUp</div>
+        {/* <div>SignUp</div> */}
         <div className="form-container">
           <form autoComplete="off" onSubmit={this.handleSubmit} style={{margin:"1em"}}>
             <label>Name</label>

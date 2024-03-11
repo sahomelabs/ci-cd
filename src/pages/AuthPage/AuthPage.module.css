@@ -1,4 +1,41 @@
-.AuthPage {
+/* .AuthPage {
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--white);
+    border-radius: 2vmin;
+  }
+  
+  .AuthPage h3 {
+    margin-top: 4vmin;
+    text-align: center;
+    color: var(--text-light);
+    cursor: pointer;
+  } */
+
+
+  /* AuthPage.module.css */
+
+/* .Authpage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.Authpage div {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h3 {
+  cursor: pointer;
+  color: #3498db; */
+
+
+  .AuthPage {
     height: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -13,3 +50,4 @@
     color: var(--text-light);
     cursor: pointer;
   }
+  

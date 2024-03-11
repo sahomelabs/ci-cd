@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import * as usersService from '../../utilities/users-service';
+import "./LoginForm.module.css";
 
 export default function LoginForm({ setUser }) {
   
@@ -32,7 +33,7 @@ async function handleSubmit(evt) {
 
 return (
   <div>
-    <h1>Log In</h1>
+    {/* <h3>SIGN IN</h3> */}
     <div className="form-container" onSubmit={handleSubmit}>
       <form autoComplete="off" >
         <label>Email</label>

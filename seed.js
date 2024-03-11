@@ -17,7 +17,6 @@ const Item = require('./models/item');
     {name: 'Sandwiches', sortOrder: 70},
     {name: 'Seafood', sortOrder: 80},
     {name: 'Sides', sortOrder: 90},
-    {name: 'Coffee', sortOrder: 100},
   ]);
 
   await Item.deleteMany({});
@@ -55,7 +54,7 @@ const Item = require('./models/item');
     {name: 'Strawberry Shortcake', emoji: '🍰', category: categories[1], price: 3.95},
     {name: 'Stuffed Flatbread', emoji: '🥙', category: categories[5], price: 9.95},
     {name: 'Milk', emoji: '🥛', category: categories[3], price: 0.95},
-    {name: 'Coffee', emoji: '☕', category: categories[3], price: 0.95},
+    {name: 'Coffee (Hot)', emoji: '☕', category: categories[3], price: 0.95},
     {name: 'Ice Coffee', emoji: '☕', category: categories[3], price: 0.95},
     {name: 'Mai Tai', emoji: '🍹', category: categories[3], price: 8.95},
     {name: 'Beer', emoji: '🍺', category: categories[3], price: 3.95},
