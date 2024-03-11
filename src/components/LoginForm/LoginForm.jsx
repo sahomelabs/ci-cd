@@ -27,7 +27,16 @@ async function handleSubmit(evt) {
     const user = await usersService.login(credentials);
     await setUser(user);
   } catch {
-    setError('Log In Failed - Try Again');
+
+    // If there is an error from the server response
+      // Check if it's a specific error (e.g., invalid credentials)
+      if (error.response && error.response.status === 401) {
+        // Set an error message for invalid credentials
+        setError('Invalid email or password');
+      } else {
+    setError('Invalid email or password');
+
+    }
   }
 }
 
